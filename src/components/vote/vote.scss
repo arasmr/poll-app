@@ -1,0 +1,53 @@
+.vote {
+    width: 30%;
+    height: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+
+    &_header {
+        height: 16%;
+        margin-bottom: 1%
+    }
+
+    &_header h5 {
+        word-break: break-word;
+        font-size: 1.2rem;
+    }
+
+    &_options {
+        display: flex;
+        flex-direction: column;
+        height: 78%;
+    }
+
+    &_option {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        & p {
+            word-break: break-word;
+        }
+    };
+
+    &_button {
+        padding: 1rem;
+        box-sizing: border-box;
+        border-radius: 10px;
+        float: right;
+        background-color: #E8999B;
+        outline: none;
+        color: white;
+        border: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .vote {
+        width: 100%;
+    }
+}

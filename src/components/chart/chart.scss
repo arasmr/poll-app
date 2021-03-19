@@ -1,0 +1,17 @@
+.chart {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2%;
+    box-sizing: border-box;
+
+    &_header h5 {
+        word-wrap: break-word;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .chart {
+        width: 100%;
+    }
+}

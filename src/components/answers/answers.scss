@@ -1,0 +1,46 @@
+.answers {
+    width: 100%;
+
+    &_list {
+        margin-top: 10%;
+        width: 100%;
+    }
+
+    &_form {
+        display: flex;
+        flex-direction: row;
+
+        & button {
+            background-color: #E8999B;
+            outline: none;
+            color: white;
+            border: none;
+            width: 40px;
+            height: 34px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    &_item {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 3px;
+        width: 100%;
+
+        & button {
+            background-color: #E8999B;
+            outline: none;
+            color: white;
+            border: none;
+            width: 40px;
+            height: 34px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

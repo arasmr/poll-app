@@ -1,0 +1,7 @@
+{
+  "question": "Test question",
+  "answer1": "Test answer 1",
+  "answer2": "Test answer 2",
+  "answerError": "Please provide at least 2 answers",
+  "questionError": "Please provide a question"
+}

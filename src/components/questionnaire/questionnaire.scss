@@ -1,0 +1,47 @@
+.questionnaire {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+
+    &_container {
+        height: 85%;
+        width: 100%;
+    }
+
+    &_count {
+        display: flex;
+        flex-direction: row;
+
+        & p {
+            flex-grow: 1;
+        }
+
+        & button {
+            padding: 1rem;
+            box-sizing: border-box;
+            border-radius: 10px;
+            float: right;
+            background-color: #e22e34;
+            outline: none;
+            color: white;
+            border: none;
+            margin: auto;
+    
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    &_reset-button {
+
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .questionnaire {
+        width: 100%;
+    }
+}
