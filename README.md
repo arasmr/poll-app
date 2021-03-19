@@ -12,7 +12,7 @@ This is a basic poll application where you can create a question and possible 10
 
 - This application is a Create React App project with TypeScript.
 - Cypress is used for the e2e automation testing.
-- State is located on top of the tree. So each user interactions changing state of the application refreshes the relevant information on the page(adding question, adding answer, voting, clicking reset button etc..)
+- State is located on top of the tree. So each user interactions changing the state of the application refreshes the relevant information on the page(adding question, adding answer, voting, clicking reset button etc..)
 - It is only possible to write 10 answers
 - Without question user can not add an answer or click the add button
 - User can add, edit, delete the answer
@@ -26,7 +26,7 @@ This is a basic poll application where you can create a question and possible 10
 
 ## Deployed version
 
-- This application is deployed the netlify. You can access the online version with this url: [https://poll-emrearas.netlify.app/](https://poll-emrearas.netlify.app/)
+- This application is deployed to the netlify. You can access the online version with this url: [https://poll-emrearas.netlify.app/](https://poll-emrearas.netlify.app/)
 
 ## Available Scripts
 
@@ -43,6 +43,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `./node_modules/.bin/cypress open`
 
-This command runs the cypress and opens the browser. You can select the e2e test you would like to run. To be able to run the test successfully the application must be running in the development mode on [http://localhost:3000](http://localhost:3000).
+This command runs the cypress and opens the browser with the existing tests. You can select the e2e test you would like to run. To be able to run the test successfully, the application must be running in the development mode on [http://localhost:3000](http://localhost:3000).
 
 
