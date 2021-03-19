@@ -1,6 +1,6 @@
 # Poll Application
 
-This is a basic poll application where you can create a question and possible 10 answers. After you vote your answers, the result is going to be displayed on the chart. Following technologies used to build this application:
+This is a basic poll application where you can create a question and possible 10 answers. After you vote your answers, the result is going to be displayed on the chart. Following stack used to build this application:
 
 - [React.js](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
@@ -23,6 +23,10 @@ This is a basic poll application where you can create a question and possible 10
 - User can see the vote result in the chart.
 - User can reset the application by clicking reset button
 - Page is responsive, can be used on the mobile as well.
+
+## Deployed version
+
+- This application is deployed the netlify. You can access the online version with this url: [https://poll-emrearas.netlify.app/](https://poll-emrearas.netlify.app/)
 
 ## Available Scripts
 
